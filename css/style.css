@@ -1,0 +1,33 @@
+#madre {
+  background-color: green;
+  height: 300px;
+  width:300px ;
+  position: absolute;
+  left:30%;
+
+}
+  
+  p {
+    background: aqua;
+   position: absolute;
+    display: block;
+    width:100px;
+    height:100px;
+    left:1px
+    
+  }
+  
+ div {
+   background-color: chartreuse;
+   padding: 100px;
+   margin:50px;
+   width:50px;
+   height:50px;
+   position: absolute;
+   left:70px ;
+   
+ }
+ 
+   
+
+ 
