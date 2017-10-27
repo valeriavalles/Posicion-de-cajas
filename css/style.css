@@ -1,21 +1,22 @@
+/*el id "madre" viene a ser el contenedor principal*/
 #madre {
   background-color: green;
   height: 300px;
   width:300px ;
-  position: absolute;
+  position: relative;
   left:30%;
 
 }
   
   p {
     background: aqua;
-   position: absolute;
+    position: relative;
     display: block;
-    width:100px;
-    height:100px;
-    left:1px
-    
-  }
+    width:130px;
+    height:130px;
+    bottom: 115px;
+    right:  100px;
+    }
   
  div {
    background-color: chartreuse;
@@ -23,11 +24,29 @@
    margin:50px;
    width:50px;
    height:50px;
-   position: absolute;
-   left:70px ;
+   position: relative;
+   right: 40px;
+   bottom: 10px;
    
  }
- 
+ /*segundo contenedor general(caja2)*/
+ #conteiner {
+  background-color:purple;
+  height: 300px;
+  width:300px ;
+  position: absolute;
+  top: 700px;
+ }
+ #conteiner p {
+  background: aqua;
+  position: relative;
+  width:140px;
+  height:140px;
+  top:-450px;
+  right:  100px;
+  }
+
+ }
    
 
  
